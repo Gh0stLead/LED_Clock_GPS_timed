@@ -1,0 +1,5 @@
+{
+    "configuration": "cpu=atmega328old",
+    "board": "arduino:avr:nano",
+    "sketch": "LED_Clock_GPS_timed\\install\\DHT22_001\\DHT22_001.ino"
+}
