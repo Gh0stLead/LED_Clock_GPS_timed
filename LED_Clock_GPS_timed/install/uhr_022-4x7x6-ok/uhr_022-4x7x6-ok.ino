@@ -102,21 +102,6 @@ int GetTime(){
   };
 
 
-//void BrightnessCheck(){
-//  const byte sensorPin = BRI_PIN; // light sensor pin
-//  const byte brightnessLow = 100; // Low brightness value
-//  const byte brightnessHigh = 170; // High brightness value
-//  //const byte brightnessLow = 0; // Low brightness value
-//  //const byte brightnessHigh = 10; // High brightness value
-//  int sensorValue = analogRead(sensorPin); // Read sensor
-//  Serial.print("Ambient is: ");
-//  Serial.println(sensorValue);
-//  sensorValue = map(sensorValue, 0, 255, 10, 100);
-//  LEDS.setBrightness(sensorValue);
-//  if (sensorValue <= 10) {LEDS.setBrightness(brightnessHigh);}
-//  else {LEDS.setBrightness(brightnessLow);}  
-//  };
-
 // Check Light sensor and set brightness accordingly
 void BrightnessCheck(){
 const byte sensorPin = 3; // light sensor pin
