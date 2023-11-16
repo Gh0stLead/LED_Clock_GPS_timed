@@ -1,5 +1,5 @@
 {
-    "configuration": "cpu=atmega328old",
-    "board": "arduino:avr:nano",
-    "sketch": "LED_Clock_GPS_timed\\install\\uhr_031-4x7x6-ok\\uhr_031-4x7x6-ok.ino"
+    "board": "arduino:avr:uno",
+    "sketch": "LED_Clock_GPS_timed\\install\\uhr_031-4x7x6-ok\\uhr_031-4x7x6-ok.ino",
+    "programmer": "arduino:avrisp"
 }
